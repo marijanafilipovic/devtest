@@ -1,0 +1,14 @@
+{
+    "name": "vendor/app",
+    "description": "devtest",
+    "type": "autoloader",
+    "minimum-stability": "stable",
+    "require": {
+     "ext-json": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "": "app/"
+        }
+    }
+}
