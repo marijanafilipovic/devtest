@@ -1,8 +1,7 @@
 <?php
 
 
-namespace app\Forms\Common\RegistrationCreateForm\Elements;
-
+namespace app\Forms\RegistrationCreateForm\Elements;
 
 use app\Forms\Common\Elements\CreateFormTitleInterface;
 

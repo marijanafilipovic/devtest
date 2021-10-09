@@ -6,5 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'app\\navLinks' => $baseDir . '/app/templates/nav_links.php',
+    'app\\Forms\\Common\\Elements\\CreateFormBodyInterface' => $baseDir . '/app/Forms/Common/Elements/CreateFormBodyInterface.php',
+    'app\\Forms\\Common\\Elements\\CreateFormSubmitActionInterface' => $baseDir . '/app/Forms/Common/Elements/CreateFormSubmitActionInterface.php',
+    'app\\Forms\\Common\\Elements\\CreateFormTitleInterface' => $baseDir . '/app/Forms/Common/Elements/CreateFormTitleInterface.php',
+    'app\\Forms\\Common\\Factories\\CreateFormFactoryInterface' => $baseDir . '/app/Forms/Common/Factories/CreateFormFactoryInterface.php',
+    'app\\Forms\\CreateForm\\CreateForm' => $baseDir . '/app/Forms/CreateForm.php',
+    'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateFormBody' => $baseDir . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormBody.php',
+    'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateFormTitle' => $baseDir . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormTitle.php',
+    'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateSubmitAction' => $baseDir . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateSubmitAction.php',
+    'app\\Forms\\RegistrationCreateForm\\RegistrationCreateFormFactory' => $baseDir . '/app/Forms/RegistrationCreateForm/RegistrationCreateFormFactory.php',
 );

@@ -1,5 +1,5 @@
 <?php
-namespace app\Forms\Common\Elements;
+namespace app\Forms\Common\Factories;
 
 interface CreateFormFactoryInterface
 {

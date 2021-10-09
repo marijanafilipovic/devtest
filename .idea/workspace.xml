@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="658629f2-d212-4edc-b283-411ceed2d653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/Elements/CreateFormBodyInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/Elements/CreateFormSubmitActionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/Elements/CreateFormTitleInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/Factories/CreateFormFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateFormBody.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateFormTitle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateSubmitAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/RegistrationCreateFormFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Forms/CreateForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Forms/LoginCreateForm/Elements/LoginCreateFormBody.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Forms/LoginCreateForm/Elements/LoginCreateFormSubmitAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Forms/LoginCreateForm/Elements/LoginCreateFormTitle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Forms/LoginCreateForm/LoginCreateFormFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Forms/RegistrationCreateForm/RegistrationCreateFormFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/classes/FormValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/classes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/DBconnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/login_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/new_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/register_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Common/Factories/CreateFormFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/Common/Factories/CreateFormFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateFormBody.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormBody.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateFormTitle.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormTitle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/Elements/RegistrationCreateSubmitAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateSubmitAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/Common/RegistrationCreateForm/RegistrationCreateFormFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Forms/CreateForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Forms/CreateForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/nav_links.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nav_links.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Forms" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\devtest\app\Forms" />
       <recent name="C:\wamp\www\devtest" />
       <recent name="C:\wamp\www\devtest\app" />
     </key>
@@ -75,11 +88,23 @@
       <option name="presentableId" value="Default" />
       <updated>1633773970401</updated>
       <workItem from="1633773971656" duration="286000" />
-      <workItem from="1633774841195" duration="5681000" />
+      <workItem from="1633774841195" duration="35223000" />
     </task>
+    <task id="LOCAL-00001" summary="Construct interfaces for Forms">
+      <created>1633780689895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633780689895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Construct interfaces for Forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Construct interfaces for Forms" />
   </component>
 </project>
