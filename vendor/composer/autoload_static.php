@@ -11,7 +11,15 @@ class ComposerStaticInitfff17d6c6f08401a603de904023934c9
     );
 
     public static $classMap = array (
-        'app\\navLinks' => __DIR__ . '/../..' . '/app/templates/nav_links.php',
+        'app\\Forms\\Common\\Elements\\CreateFormBodyInterface' => __DIR__ . '/../..' . '/app/Forms/Common/Elements/CreateFormBodyInterface.php',
+        'app\\Forms\\Common\\Elements\\CreateFormSubmitActionInterface' => __DIR__ . '/../..' . '/app/Forms/Common/Elements/CreateFormSubmitActionInterface.php',
+        'app\\Forms\\Common\\Elements\\CreateFormTitleInterface' => __DIR__ . '/../..' . '/app/Forms/Common/Elements/CreateFormTitleInterface.php',
+        'app\\Forms\\Common\\Factories\\CreateFormFactoryInterface' => __DIR__ . '/../..' . '/app/Forms/Common/Factories/CreateFormFactoryInterface.php',
+        'app\\Forms\\CreateForm\\CreateForm' => __DIR__ . '/../..' . '/app/Forms/CreateForm.php',
+        'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateFormBody' => __DIR__ . '/../..' . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormBody.php',
+        'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateFormTitle' => __DIR__ . '/../..' . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateFormTitle.php',
+        'app\\Forms\\RegistrationCreateForm\\Elements\\RegistrationCreateSubmitAction' => __DIR__ . '/../..' . '/app/Forms/RegistrationCreateForm/Elements/RegistrationCreateSubmitAction.php',
+        'app\\Forms\\RegistrationCreateForm\\RegistrationCreateFormFactory' => __DIR__ . '/../..' . '/app/Forms/RegistrationCreateForm/RegistrationCreateFormFactory.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
